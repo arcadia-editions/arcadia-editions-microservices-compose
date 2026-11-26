@@ -7,6 +7,7 @@ x-service-env: &service-env
   DATASOURCE_PASSWORD: admin123
   KAFKA_BOOTSTRAP_SERVERS: kafka:19093
   SPRING_KAFKA_PROPERTIES_SCHEMA_REGISTRY_URL: http://schema-registry:8081
+  SCHEMA_REGISTRY_URL: http://schema-registry:8081
   SPRING_JPA_HIBERNATE_DDL_AUTO: update
 
 x-service: &service
